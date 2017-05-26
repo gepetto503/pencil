@@ -26,6 +26,7 @@ h1, h2, h3 {
   font-family: 'Shadows Into Light', sans-serif;
 }
 
+/*navbar*/
 .navbar {
   height: 30px;
   background-color: black;
@@ -35,10 +36,6 @@ h1, h2, h3 {
   padding: 0px 8px;
 }
 
-.main {
-  border: 1px solid green;
-  padding: 40px;
-}
 
 .logo {
   float: left;
@@ -61,14 +58,27 @@ h1, h2, h3 {
 
 }
 
+/* main content area*/
+.main {
+  border: 1px solid green;
+  padding: 40px;
+}
 
-.pencil {
-  width: 400px;
-  margin: auto;
+.all-divs {
+  width: 60%;
+  margin:auto;
   padding: 20px;
   position: relative;
-  margin-top: 40px;
+  overflow: auto;
   border: 1px dashed darkgrey;
+}
+
+.pencil {
+  margin-top: 40px;
+}
+
+.pencil-wrapper {
+  position: relative;
 }
 
 #big-pencil {
@@ -78,16 +88,13 @@ h1, h2, h3 {
 #its-pencil {
   position: absolute;
   top: 0px;
-  left: 240px;
+  left: 75%;
   margin: 0;
-  font-size: 16pt;
+  font-size: 2vw;
+  white-space: nowrap;
 }
 
 .what-is-pencil {
-  width: 400px;
-  margin: auto;
-  padding: 20px;
-  border: 1px dashed darkgrey;
   overflow: auto;
 }
 
@@ -132,21 +139,13 @@ ul {
   font-size: 8px;
 }
 
-
-.gallery {
-  width: 400px;
-  margin: auto;
-  padding: 20px;
-  border: 1px dashed darkgrey;
-  overflow: auto;
-}
-
 .image-wrapper {
   overflow: auto;
   margin: auto;
   padding: 0px 50px;
 }
-.gallery img {
+
+.image-wrapper img {
   height: 75px;
   width: 75px;
   margin: 5px;
@@ -156,15 +155,6 @@ ul {
 
 .gallery img:hover { /* psuedo selector */
   border: 2px solid red;
-}
-
-.purchase {
-  border: 1px dashed darkgrey;
-  width: 400px;
-  margin: auto;
-  padding: 20px;
-  overflow: auto;
-  position: relative;
 }
 
 .purchase-form {
