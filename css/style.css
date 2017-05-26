@@ -17,6 +17,12 @@ html {
 
 body {
   margin: 0;
+  font-family: sans-serif;
+  font-weight: 100;
+  font-size: 12px;
+}
+
+h1, h2, h3 {
   font-family: 'Shadows Into Light', sans-serif;
 }
 
@@ -82,11 +88,50 @@ body {
   margin: auto;
   padding: 20px;
   border: 1px dashed darkgrey;
+  overflow: auto;
 }
 
 .what-is-pencil h3 {
   text-align: center;
 }
+
+.left-column {
+  width: 60%;
+  float: left;
+  padding-right: 8px;
+
+}
+
+.right-column {
+  width: 40%;
+  float: right;
+}
+
+ul {
+  list-style: none;
+  padding: 0px;
+  margin: 0px;
+  line-height: 2em;
+}
+
+.right-column li:first-child { /*pseudo selector*/
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.what-footer::before { /*pseudo element*/
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.what-footer p {
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 0px;
+  font-size: 8px;
+}
+
 
 .gallery {
   width: 400px;
@@ -109,16 +154,9 @@ body {
   border: 1px solid green;
 }
 
-.gallery img:hover {
+.gallery img:hover { /* psuedo selector */
   border: 2px solid red;
 }
-
-.gallery img:nth-child(3n+1) {
-  border: 2px solid blue;
-  clear: left;
-}
-
-
 
 .purchase {
   border: 1px dashed darkgrey;
