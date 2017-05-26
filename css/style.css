@@ -1,13 +1,10 @@
-body {
-  margin: 0;
-}
-
 /*box sizing*/
 html {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
 }
+
 *, *:before, *:after {
   -webkit-box-sizing: inherit;
   -moz-box-sizing: inherit;
@@ -17,11 +14,11 @@ html {
 
 
 /* my styles */
-.main {
-  height: 100vh;
-  border: 1px solid green;
-}
 
+body {
+  margin: 0;
+  font-family: 'Shadows Into Light', sans-serif;
+}
 
 .navbar {
   height: 30px;
@@ -29,6 +26,12 @@ html {
   overflow: hidden;
   color: white;
   position: relative;
+  padding: 0px 8px;
+}
+
+.main {
+  border: 1px solid green;
+  padding: 40px;
 }
 
 .logo {
@@ -52,6 +55,76 @@ html {
 
 }
 
+
+.pencil {
+  width: 400px;
+  margin: auto;
+  position: relative;
+  margin-top: 40px;
+  border: 1px dashed darkgrey;
+}
+
+#big-pencil {
+  width: 100%;
+}
+
+#its-pencil {
+  position: absolute;
+  top: 0px;
+  left: 240px;
+  margin: 0;
+  font-size: 16pt;
+}
+
+.what-is-pencil {
+  width: 400px;
+  margin: auto;
+  border: 1px dashed darkgrey;
+}
+
+.what-is-pencil h3 {
+  text-align: center;
+}
+
+.gallery {
+  width: 400px;
+  margin: auto;
+  border: 1px dashed darkgrey;
+}
+
+.gallery img {
+  width: 28%;
+  margin: 5px;
+
+}
+
+.purchase {
+  border: 1px dashed darkgrey;
+  width: 400px;
+  margin: auto;
+  overflow: auto;
+  position: relative;
+}
+
+.purchase-form {
+  width: 200px;
+  margin: auto;
+  border: 1px dashed grey;
+  /*overflow: hidden;*/
+}
+
+.labels {
+  float: left;
+}
+
+.inputs {
+  position: absolute;
+  left: 50%;
+}
+
+.purchase h3 {
+  text-align: center;
+}
 
 /*font-family: 'Permanent Marker', cursive;
 font-family: 'Amatic SC', cursive;
