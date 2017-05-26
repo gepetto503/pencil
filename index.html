@@ -3,6 +3,7 @@
   <head>
     <link href="https://fonts.googleapis.com/css?family=Amatic+SC|Cookie|Permanent+Marker|Shadows+Into+Light|Yellowtail" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
+    <script src="js/jquery-3.2.1.js"type="text/javascript"></script>
     <title>Pencil!™</title>
   </head>
   <body>
@@ -34,6 +35,7 @@
             <li>things Pencil!™ can do:</li>
             <li>write</li>
             <li>draw</li>
+            <li>be a snack</li>
           </ul>
         </div>
         <div class="what-footer">
@@ -41,6 +43,7 @@
         </div>
       </div>
       <div class="gallery all-divs">
+        <h2 class="gallery-header">show us your pencil!</h2>
         <div class="image-wrapper">
           <img src="img/ikea-pencils.jpg" alt="">
           <img src="img/pencil-arrows.jpg" alt="">
@@ -54,27 +57,16 @@
         </div>
       </div>
       <div class="all-divs">
-        <form id="purchase-form" class="purchase-form">
-          <h3>Purchase your own Pencil!™</h3>
-          <div class="labels">
-            <label name="size">Size</label><br>
-            <label name="hardness">Hardness</label><br>
-            <label name="color">Color</label><br>
-          </div>
-          <div class="inputs">
-            <select name="size">
-              <option>golf Pencil!™</option>
-              <option>standard Pencil!™</option>
-              <option>really big Pencil!™</option>
-            </select><br>
-            <select name="hardness">
-              <option>H2</option>
-              <option>HB</option>
-              <option>2B</option>
-            </select><br>
-
-          </div>
-        </form>
+        <div class="form-div">
+          <form id="form">
+            <label>Name</label>
+            <input type="text" name="name"></input>
+            <br>
+            <label>Email</label>
+            <input type="text" name="email"></input>
+            <button type="submit" name="button">SUBMIT!!!</button>
+          </form>
+        </div>
       </div>
     </div>
   </body>
