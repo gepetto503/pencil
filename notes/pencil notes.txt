@@ -1,0 +1,25 @@
+floats and clears
+
+absolute and relative positioning
+  - (not a fan of this tut, but...
+  https://codemyviews.com/blog/the-lowdown-on-absolute-vs-relative-positioning  
+
+
+styling forms
+- https://developer.mozilla.org/en-US/docs/Learn/HTML/Forms/Styling_HTML_forms
+- github styled-form
+
+styling tables
+- https://css-tricks.com/complete-guide-table-element/
+- github styled-table and rotten-tomatoes
+
+pseudo classes and pseudo selectors
+- :hover (pseudo class, based on a particular state)
+- :after (pseudo element, adds new content at that point)
+
+use 3 different types of selectors 
+  - (cheat sheet links) https://www.learnhowtoprogram.com/css/moving-forward-with-css/selector-level-up
+
+centering with css
+  - (css tricks) https://css-tricks.com/centering-css-complete-guide/
+  - (w3.org) https://www.w3.org/Style/Examples/007/center.en.html
