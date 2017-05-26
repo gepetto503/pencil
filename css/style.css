@@ -1,0 +1,60 @@
+body {
+  margin: 0;
+}
+
+/*box sizing*/
+html {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  -webkit-box-sizing: inherit;
+  -moz-box-sizing: inherit;
+  box-sizing: inherit;
+  }
+
+
+
+/* my styles */
+.main {
+  height: 100vh;
+  border: 1px solid green;
+}
+
+
+.navbar {
+  height: 30px;
+  background-color: black;
+  overflow: hidden;
+  color: white;
+  position: relative;
+}
+
+.logo {
+  float: left;
+}
+
+.logo h3 {
+  margin: 3px 0px;
+}
+
+.links {
+  float: right;
+}
+
+.links a {
+  text-decoration: none;
+  color: white;
+  /*padding: 3px 0px;*/
+  float: left;
+  margin: 6px;
+
+}
+
+
+/*font-family: 'Permanent Marker', cursive;
+font-family: 'Amatic SC', cursive;
+font-family: 'Shadows Into Light', cursive;
+font-family: 'Yellowtail', cursive;
+font-family: 'Cookie', cursive;*/
