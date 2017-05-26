@@ -96,6 +96,11 @@ body {
   overflow: auto;
 }
 
+.image-wrapper {
+  overflow: auto;
+  margin: auto;
+  padding: 0px 50px;
+}
 .gallery img {
   height: 75px;
   width: 75px;
@@ -113,11 +118,6 @@ body {
   clear: left;
 }
 
-.image-wrapper {
-  overflow: auto;
-  margin: auto;
-  padding: 0px 50px;
-}
 
 
 .purchase {
@@ -130,7 +130,7 @@ body {
 }
 
 .purchase-form {
-  width: 200px;
+  width: 240px;
   margin: auto;
   border: 1px dashed grey;
   /*overflow: hidden;*/
@@ -143,6 +143,10 @@ body {
 .inputs {
   position: absolute;
   left: 40%;
+}
+
+input, option {
+  width: 140px;
 }
 
 .purchase h3 {
